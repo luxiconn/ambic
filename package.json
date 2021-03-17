@@ -1,0 +1,9 @@
+{
+  "name": "@psalbo/meta",
+  "version": "1.0.0",
+  "workspaces": [
+    "src/services/*",
+    "src/web/*",
+    "src/packages/*"
+  ]
+}
