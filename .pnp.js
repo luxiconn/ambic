@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "@psalbo/meta",
+        "name": "@ambic/meta",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["@psalbo/meta", ["workspace:."]]
+      ["@ambic/meta", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -41,11 +41,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "SOFT",
         }]
       ]],
-      ["@psalbo/meta", [
+      ["@ambic/meta", [
         ["workspace:.", {
           "packageLocation": "./",
           "packageDependencies": [
-            ["@psalbo/meta", "workspace:."]
+            ["@ambic/meta", "workspace:."]
           ],
           "linkType": "SOFT",
         }]

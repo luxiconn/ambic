@@ -4,8 +4,8 @@
 __metadata:
   version: 4
 
-"@psalbo/meta@workspace:.":
+"@ambic/meta@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@psalbo/meta@workspace:."
+  resolution: "@ambic/meta@workspace:."
   languageName: unknown
   linkType: soft

@@ -1,5 +1,5 @@
 {
-  "name": "@psalbo/meta",
+  "name": "@ambic/meta",
   "version": "1.0.0",
   "workspaces": [
     "src/services/*",
